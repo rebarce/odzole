@@ -634,7 +634,6 @@ header ul li:hover {
   .stat img {
     max-width:65%;
     height: auto;
-    padding-bottom: 0.5rem;
   }
   .stat-text {
     align-items: center;

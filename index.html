@@ -1,0 +1,516 @@
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="description" content="Fruit exporting company from Serbia">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="./css/reset.css" />
+      <link rel="stylesheet" href="./css/style.css" />
+      <title>FruitRevolution</title>
+    </head>
+
+    <body>
+      <!-- Header -->
+      <header>
+        <div id="brand">
+          <a href="#hero"><h3>FruitRevolution</h3></a>
+        </div>
+        <nav class="sr-only">
+          <ul class="mobile-menu">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#who-are-we">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#who-are-we">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#who-are-we">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Lang menu -->
+        <div class="languages">
+          <div class="eng">
+            <a href="index.html"
+              ><img src="./icons/united-kingdom.png" alt="united kingdom flag"
+            /></a>
+          </div>
+          <div class="fr">
+            <a href="./fr/index.html"
+              ><img src="./icons/france.png" alt="france flag"
+            /></a>
+          </div>
+        </div>
+        <!-- End of Lang menu -->
+      </header>
+      <!-- End of Header -->
+
+      <!-- Hero -->
+      <div id="hero">
+        <div class="hero-message">
+          <h1>Serbian Apple</h1>
+          <h2>healthy and refreshing. always.</h2>
+          <button type="button" class="hero-btn">
+            <a href="#products">More</a>
+          </button>
+        </div>
+      </div>
+      <!-- End of Hero -->
+      <div class="splitter"></div>
+      <!-- About -->
+      <div id="about">
+        <h2>Welcome to "Fruit Revolution"</h2>
+        <p>
+          "Fruit Revolution" is one of the largest and most advanced producers
+          and suppliers of high-quality fruit in Serbia.
+        </p>
+        <p>
+          Our mission is production and offer of our own apples as well as
+          distribution of various products made by our cooperating partners in
+          accordance with high industry standards of domestic and foreign
+          markets demands.
+        </p>
+        <div id="readmore" style="display: none">
+          <p>
+            Serbia is blessed with a variety of delicious fruits that grow in a
+            sunny climate and untouched land. The country grows about 1.5 million
+            tons of various fruits a year on about 190,000 hectares of
+            plantations. With increasing investment in high-tech orchards and
+            logistics infrastructure, the modernized fruit sector in Serbia has
+            been growing in the last decade.
+          </p>
+          <p>
+            Favorable climatic conditions combined with excellent soil quality
+            provide healthy potential for growing top quality fruits. With 8% of
+            world production, Serbia is home to world-famous raspberries, the
+            fourth largest plum producer in the world and one of the largest
+            apple producers in Southeast Europe.
+          </p>
+          <p>
+            Serbia is also becoming one of the most recognizable producers of
+            blueberries, whose modern plantations are expanding dynamically,
+            following the successful path of the world-famous Serbian raspberry.
+          </p>
+        </div>
+        <button id="readmore_btn" onclick="readMore()">Read More</button>
+      </div>
+      <!-- End of About -->
+      <div class="splitter"></div>
+      <!-- Who are we -->
+      <div id="who-are-we">
+        <h2>About us</h2>
+        <p>
+          Fruit Revolution is created and guided by the idea of producing and
+          distributing the highest quality fruit. Together with our cooperants,
+          who are the leading fruit producers from different regions of Serbia,
+          we provide our customers with quality and continuity of deliveries,
+          with the best price-quality ratio.
+        </p>
+        <p>
+          The company "Fruit Revolution" operates in three areas: Primary
+          production of fruit, Purchase of fruit and Logistics. By investing in
+          new technologies and following world trends, we strive to become
+          synonym with the highest standard in the field of production and
+          export of the highest quality fruit. The advantages of "Fruit
+          Revolution" company are: Focus on priorities, Use of own resources,
+          Enthusiasm and Dedication to work. With the constant implementation of
+          innovations in business, we ensure rapid adaptation to changes and
+          customers' needs.
+        </p>
+        <p>
+          Our customers' satisfaction is our motivation and the only measure of
+          success.
+        </p>
+      </div>
+      <!-- End of Who are we -->
+      <div class="splitter"></div>
+      <!-- Fruit Numbers -->
+      <div class="fr-numbers">
+        <h3>Fruit Revolution in numbers</h3>
+        <h4>
+          Together with our subcontractors, we have the following capacities:
+        </h4>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-image">
+              <img
+                src="./icons/trees.png"
+                alt="trees"
+              />
+            </div>
+            <div class="stat-text">
+                <p>1 100 +</p>              
+                <p>hectares of orchards</p>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat-image">
+              <img src="./icons/warehouse.png" alt="warehouse icon" />
+            </div>
+            <div class="stat-text">
+              <p>20 000t</p>
+              <p>of storage capacity</p>
+            </div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-image">
+              <img src="./icons/fruits.png" alt="various fruit in wooden box" />
+            </div>
+            <div class="stat-text">
+              <p>50 +</p>
+              <p>products in our range</p>
+            </div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-image">
+              <img src="./icons/collaboration.png" alt="handshake" />
+            </div>
+            <div class="stat-text">
+              <p>200 +</p>
+              <p>subcontractors</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Fruit Numbers -->
+      <div class="splitter"></div>
+      <!-- Products -->
+      <div id="products">
+        <h2>Product portfolio</h2>
+        <div class="cards-grid">
+          <div class="card">
+            <div class="card-head">
+              <div class="card-image">
+                <img src="./images/red-delicious.png" alt="red delicious" />
+              </div>
+              <h3>Red Delicious</h3>
+            </div>
+            <div class="card-taste">
+              <h4>Taste:</h4>
+              <p>
+                Red Delicious is crunchy, juicy, sweet apple with a typical
+                aroma for its variety.
+              </p>
+            </div>
+            <div class="card-fruit">
+              <h4>Fruit:</h4>
+              <p>
+                The fruit is medium to large in size, elongated and has five
+                distinct rib crowns in the core cavity. The color is bright to
+                dark-red, but some clones can have varieties in color.
+              </p>
+            </div>
+            <div class="card-availability">
+              <h4>Availability</h4>
+              <p>March, April, May, June</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <div class="card-image">
+                <img
+                  src="./images/golden-delicious.png"
+                  alt="golden delicious"
+                />
+              </div>
+              <h3>Golden Delicious</h3>
+            </div>
+            <div class="card-taste">
+              <h4>Taste:</h4>
+              <p>
+                Golden Delicious apples are sweet, juicy and crispy with a very
+                agreeable aroma and fine fruit acid.
+              </p>
+            </div>
+            <div class="card-fruit">
+              <h4>Fruit:</h4>
+              <p>
+                The apples are medium to large in size, elongated, symmetrical
+                and of uniform shape. The color of this variety ranges from
+                greenish yellow to golden yellow.
+              </p>
+            </div>
+            <div class="card-availability">
+              <h4>Availability</h4>
+              <p>March, April, May, June</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <div class="card-image">
+                <img src="./images/idared.png" alt="idared" />
+              </div>
+              <h3>Idared</h3>
+            </div>
+            <div class="card-taste">
+              <h4>Taste:</h4>
+              <p>
+                Sweet and tart, juicy yet crisp and firm. The best fruits have a
+                sprightly, aromatic, and refreshing flavor, although some may
+                lack strong flavor.
+              </p>
+            </div>
+            <div class="card-fruit">
+              <h4>Fruit:</h4>
+              <p>
+                Medium to extra-large in size, and generally round, with a layer
+                bright red over a green-red background. The flesh is
+                yellowish-green, although sometimes a faint pink tinge can be
+                detected.
+              </p>
+            </div>
+            <div class="card-availability">
+              <h4>Availability</h4>
+              <p>March, April, May, June</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <div class="card-image">
+                <img src="./images/gala.png" alt="gala" />
+              </div>
+              <h3>Gala</h3>
+            </div>
+            <div class="card-taste">
+              <h4>Taste:</h4>
+              <p>
+                Their flesh is creamy yellow, crisp and juicy, offering a mildly
+                sweet aroma.
+              </p>
+            </div>
+            <div class="card-fruit">
+              <h4>Fruit:</h4>
+              <p>
+                The apple is small to medium-sized, firm and round in shape.
+                They are covered in a thin, smooth yellow skin, highlighted with
+                gentle red stripes.
+              </p>
+            </div>
+            <div class="card-availability">
+              <h4>Availability</h4>
+              <p>March, April, May, June</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <div class="card-image">
+                <img src="./images/granny-smith.png" alt="granny smith" />
+              </div>
+              <h3>Granny Smith</h3>
+            </div>
+            <div class="card-taste">
+              <h4>Taste:</h4>
+              <p>
+                Granny Smith apples are tart, juicy and crisp in texture, with a
+                subtle aroma. It is a favorite variety for those who love apples
+                with tart, acidic flavor.
+              </p>
+            </div>
+            <div class="card-fruit">
+              <h4>Fruit:</h4>
+              <p>
+                The apples are large in size and round in shape. They have
+                bright green skin that is often speckled with faint white
+                lenticels. This variety is also known as the "green apple".
+              </p>
+            </div>
+            <div class="card-availability">
+              <h4>Availability</h4>
+              <p>March, April, May, June</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <div class="card-image">
+                <img src="./images/fuji.png" alt="fuji" />
+              </div>
+              <h3>Fuji</h3>
+            </div>
+            <div class="card-taste">
+              <h4>Taste:</h4>
+              <p>
+                The Fuji apples are crisp, juicy and sweet. Their flavor is
+                extremely aromatic.
+              </p>
+            </div>
+            <div class="card-fruit">
+              <h4>Fruit:</h4>
+              <p>
+                Medium to large in size the thick skin of the Fuji apple is
+                light red with red vertical stripes. Sometimes, there can be a
+                slight glassiness as an indication of high sugar content.
+              </p>
+            </div>
+            <div class="card-availability">
+              <h4>Availability</h4>
+              <p>March, April, May, June</p>
+            </div>
+          </div>
+        </div>
+        <p>
+          At the request of buyers, we can, with the help of our partners, offer
+          you the following products: Plums, Blueberries, Pears, Cherries,
+          Apricots, Peaches, as well as Frozen Fruits and Dried Fruits.
+        </p>
+      </div>
+      <!-- End of Products -->
+      <div class="splitter"></div>
+      <!-- Packaging -->
+      <div class="packaging">
+        <h2>Packaging types</h2>
+        <p>
+          We have a potential to answer all our customer's demands concerning
+          wrapping material and packaging (wooden, plastic , carton) to fulfill
+          their needs.
+        </p>
+        <div class="packaging-types">
+          <div class="types-group-one">
+            <p class="accordion">Fruitbox, loose apples in box</p>
+            <div class="accordion-panel">
+              <img src="./images/packages/fruitbox.png" alt="fruitbox" />
+            </div>
+            <p class="accordion">Cardboard boxes, 1 layer</p>
+            <div class="accordion-panel">
+              <img
+                src="./images/packages/cardboard-1layer.png"
+                alt="one layer cardboard"
+              />
+            </div>
+            <p class="accordion">Plateaus, 2 layers</p>
+            <div class="accordion-panel">
+              <img
+                src="./images/packages/plateaus-2layers.png"
+                alt="two layers plateaus"
+              />
+            </div>
+            <p class="accordion">
+              Foodtainer 4,6,8 fruits. Polystyrene/polypropylene, Wood pulp
+            </p>
+            <div class="accordion-panel">
+              <img src="./images/packages/foodtainer.png" alt="foodtainer" />
+            </div>
+          </div>
+
+          <div class="types-group-two">
+            <p class="accordion">Maxpac box, loose apples in box</p>
+            <div class="accordion-panel">
+              <img src="./images/packages/maxpac.png" alt="maxpac" />
+            </div>
+            <p class="accordion">
+              Reusable plastic crate, 1 layer and 2 layers
+            </p>
+            <div class="accordion-panel">
+              <img
+                src="./images/packages/reusable-plastic-crate.png"
+                alt="reusable plastic crate"
+              />
+            </div>
+            <p class="accordion">Traypac, 5 layers</p>
+            <div class="accordion-panel">
+              <img src="./images/packages/traypack.png" alt="traypack" />
+            </div>
+            <p class="accordion">
+              Euro cardboard box, for sealed bags, bags and trays
+            </p>
+            <div class="accordion-panel">
+              <img
+                src="./images/packages/euro-cardbox.png"
+                alt="euro cardbox"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Packaging -->
+      <div class="splitter"></div>
+      <!-- Storing -->
+      <div class="storing">
+        <h2>Storing</h2>
+        <p>
+          Our storing and sorting facility is designed and built in accordance
+          with the highest industry standards.
+        </p>
+        <p>
+          We own a modern cold storage facilities with
+          <strong>ULO</strong>(Ultra low Oxygen) & <strong>DCA</strong>(Dynamic
+          Control Atmosphere) technology and machines for cleaning, calibrating
+          and packaging apples.
+        </p>
+      </div>
+      <!-- End of Storing -->
+      <div class="splitter"></div>
+      <!-- Contact -->
+      <div id="contact">
+        <h2>Contact</h2>
+        <p>
+          Always open for dialogue and new ideas. If you got any, feel free to
+          reach out to us.
+        </p>
+        <div class="contact-info">
+          <div class="contact-info-sr">
+            <h3>Serbia</h3>
+            <p>Viktor Veljkovic</p>
+            <div class="tel">
+              <img src="./icons/red-phone.png" alt="phone icon" />
+
+              <a href="tel:+381638838717">+381 63 88 38 717</a>
+            </div>
+            <div class="email">
+              <img src="./icons/red-email.png" alt="email icon" />
+
+              <a href="mailto:office@fruitrevolution.rs"
+                >office@fruitrevolution.rs</a
+              >
+            </div>
+          </div>
+          <div class="contact-info-fr">
+            <h3>France</h3>
+            <p>Georges Ristic</p>
+            <div class="tel">
+              <img src="./icons/red-phone.png" alt="phone icon" />
+
+              <a href="tel:+33781408885">+33 781 408 885</a>
+            </div>
+            <div class="email">
+              <img src="./icons/red-email.png" alt="email icon" />
+
+              <a href="mailto:info@fruitrevolution.rs"
+                >info@fruitrevolution.rs</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Contact -->
+
+      <!-- JScript -->
+      <script src="./js/nav.js"></script>
+      <script src="./js/accordion.js"></script>
+      <script src="./js/lessmore.js"></script>
+    </body>
+  </html>
+</body>

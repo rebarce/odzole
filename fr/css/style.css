@@ -1273,15 +1273,19 @@ header ul li:hover {
 
   /* CONTACT */
   #contact {
-    padding-inline: 15%;
+    padding-inline: 20%;
   }
   #contact > p:nth-child(2) {
     max-width: 70ch;
     margin: auto;
   }
+  .contact-info {
+    max-width: 80%;
+    margin: auto;
+  }
   .tel img,
   .email img {
-    max-width: 9%;
+    max-width: 7%;
     height: auto;
   }
 
@@ -1321,9 +1325,7 @@ header ul li:hover {
   .packaging > p:nth-child(2) {
     max-width: 75ch;
   }
-  /* .packaging-types {
-    gap: 4rem;
-  } */
+
   /* END OF PACKAGING */
 }
 

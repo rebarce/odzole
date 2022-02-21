@@ -73,6 +73,7 @@ strong {
   background-color: var(--dark-red);
 }
 
+
 /* HEADER */
 header {
   position: fixed;
@@ -508,7 +509,7 @@ header ul li:hover {
 
 .tel img,
 .email img {
-  max-width: 8%;
+  max-width: 9%;
   height: auto;
 }
 /* END OF CONTACT */
@@ -546,10 +547,10 @@ header ul li:hover {
   /* CONTACT  */
   .tel img,
   .email img {
-    max-width: 7%;
-    height: auto;
-  }
-  /* END OF CONTACT */
+  max-width: 9%;
+  height: auto;
+}
+/* END OF CONTACT */
 }
 
 @media screen and (min-width: 450px) {
@@ -570,6 +571,7 @@ header ul li:hover {
     }
   }
   /* END OF HERO */
+
 }
 @media screen and (min-width: 460px) {
   .stat-image {
@@ -578,15 +580,6 @@ header ul li:hover {
   }
 }
 
-@media screen and (min-width: 500px) {
-  /* CONTACT  */
-  .tel img,
-  .email img {
-    max-width: 5%;
-    height: auto;
-  }
-  /* END OF CONTACT */
-}
 
 @media screen and (min-width: 576px) {
   html {
@@ -630,7 +623,7 @@ header ul li:hover {
   }
 
   .stat img {
-    max-width: 65%;
+    max-width:65%;
     height: auto;
   }
   .stat-text {
@@ -701,6 +694,7 @@ header ul li:hover {
 
   .fr-numbers {
     padding-inline: 15%;
+
   }
 
   /* END OF FR NUMBERS */
@@ -916,14 +910,15 @@ header ul li:hover {
     text-align: center;
   }
   .contact-info {
+    width: 80%;
+    margin: auto;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
   }
-  .tel img,
-  .email img {
-    max-width: 9%;
-    height: auto;
-  }
+  .contact-info-fr,
+.contact-info-sr {
+  width: 100%;
+}
   /* END OF CONTACT  */
 }
 
@@ -961,6 +956,8 @@ header ul li:hover {
     max-width: 70%;
   }
   /* END OF HERO */
+
+
 
   /* PRODUCTS */
   .cards-grid {
@@ -1088,7 +1085,7 @@ header ul li:hover {
   .fr-numbers h4 {
     text-align: center;
   }
-
+  
   .fr-numbers h4 {
     letter-spacing: 0.4px;
     font-size: 1.1rem;
@@ -1284,7 +1281,7 @@ header ul li:hover {
   }
   .tel img,
   .email img {
-    max-width: 10%;
+    max-width: 9%;
     height: auto;
   }
 
@@ -1292,11 +1289,11 @@ header ul li:hover {
 }
 
 @media screen and (min-width: 1380px) {
-  /* PACKAGING TYPES */
-  .packaging-types {
+   /* PACKAGING TYPES */
+   .packaging-types {
     gap: 5rem;
   }
-}
+} 
 
 @media screen and (min-width: 1440px) {
   /* HERO */
@@ -1374,5 +1371,3 @@ header ul li:hover {
   /* END OF CONTACT */
 }
 
-@media screen and (min-width: 1800px) {
-}

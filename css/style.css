@@ -941,6 +941,11 @@ header ul li:hover {
     flex-direction: row;
     justify-content: space-around;
   }
+
+  .contact-info-fr,
+  .contact-info-sr {
+    width: 100%;
+  }
   .tel img,
   .email img {
     max-width: 9%;
@@ -949,14 +954,6 @@ header ul li:hover {
   /* END OF CONTACT  */
 }
 
-@media screen and (min-width: 850px) {
-  /* FR STATS */
-  /* .stat img {
-    max-width: 50%;
-    height: auto;
-  } */
-  /* END OF FR STATS */
-}
 
 @media screen and (min-width: 992px) {
   /* HEADER */
